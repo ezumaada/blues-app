@@ -1,0 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  /* background-color: rgb(29, 63, 63); */
+}
+.span{
+  color: #1818A6;
+}
+
