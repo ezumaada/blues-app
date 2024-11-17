@@ -1,8 +1,8 @@
 import React from 'react';
 import teampic1 from '../../assets/images/tpic5.png';
-import teampic2 from '../../assets/images/team1.png';
+import teampic2 from '../../assets/images/team1.jpeg';
 import teampic3 from '../../assets/images/team2.png';
-import teampic4 from '../../assets/images/team3.png';
+import teampic4 from '../../assets/images/team3.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
