@@ -15,11 +15,20 @@ const Footer = () => {
           <div className="flex flex-col items-start text-white">
             <h1 className="text-[#D1D1ED] font-bold text-4xl mb-4">BLUES</h1>
             <div className="flex gap-4 mb-4">
-              <img src={iglogo} alt="Instagram" className="w-6 h-6"/>
-              <img src={fblogo} alt="Facebook" className="w-6 h-6"/>
-              <img src={xlogo} alt="Twitter" className="w-6 h-6"/>
-              <img src={linlogo} alt="LinkedIn" className="w-6 h-6"/>
-            </div>
+  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+    <img src={iglogo} alt="Instagram" className="w-6 h-6"/>
+  </a>
+  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+    <img src={fblogo} alt="Facebook" className="w-6 h-6"/>
+  </a>
+  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+    <img src={xlogo} alt="Twitter" className="w-6 h-6"/>
+  </a>
+  <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+    <img src={linlogo} alt="LinkedIn" className="w-6 h-6"/>
+  </a>
+</div>
+
             <div className="text-[#D1D1ED]">Copyright 2023 blues.com</div>
           </div>
 
@@ -43,7 +52,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 text-white">
             <ul className="flex flex-col gap-3">
               <li className="font-bold">Support</li>
-              <li className="font-medium"><Link to="/faq">FAQs</Link></li>
+              <li className="font-medium"><Link to="/FAQ">FAQs</Link></li>
               <li className="font-medium"><Link to="/support">Support Center</Link></li>
               <li className="font-medium"><Link to="/contact">Contact Us</Link></li>
             </ul>

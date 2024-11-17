@@ -6,6 +6,9 @@ import Properties from './pages/properties/Properties';
 import ContactUs from './pages/contactus/ContactUs';
 import SignIn from './pages/signin/SignIn';
 import Details from './pages/details/Details';
+import SignUp from './pages/signup/SignUp';
+import FAQ from './pages/faq/FAQ';
+import SupportPage from './pages/supportpage/SupportPage';
 
 
 const App = () => {
@@ -19,7 +22,10 @@ const App = () => {
           <Route path='/properties' element={<Properties/>}/>
           <Route path='/contact' element={<ContactUs/>}/>
           <Route path='/signin' element={<SignIn/>}/>
+          <Route path='/signup' element={<SignUp/>}/>
           <Route path='/details' element={<Details/>}/>
+          <Route path='/FAQ' element={<FAQ/>}/>
+          <Route path='/support' element={<SupportPage/>}/>
         </Route>
       </Routes>
       </BrowserRouter>

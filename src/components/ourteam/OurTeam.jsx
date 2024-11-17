@@ -1,5 +1,8 @@
 import React from 'react';
 import teampic1 from '../../assets/images/tpic5.png';
+import teampic2 from '../../assets/images/team1.png';
+import teampic3 from '../../assets/images/team2.png';
+import teampic4 from '../../assets/images/team3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -32,11 +35,11 @@ const OurTeam = () => {
       {/* Grid layout for team members */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-[5vw]">
         <Cards image={teampic1} name="John Jude" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
-        <Cards image={teampic1} name="Sarah Lee" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
-        <Cards image={teampic1} name="Mark Smith" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
-        <Cards image={teampic1} name="Rachel Adams" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
+        <Cards image={teampic2} name="Sarah Lee" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
+        <Cards image={teampic3} name="Mark Smith" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
+        <Cards image={teampic4} name="Rachel Adams" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
         <Cards image={teampic1} name="David Johnson" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
-        <Cards image={teampic1} name="Emily Clark" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
+        <Cards image={teampic2} name="Emily Clark" twitter="https://twitter.com" facebook="https://facebook.com" instagram="https://instagram.com" />
       </div>
     </div>
   );

@@ -55,7 +55,7 @@ const Header = () => {
                 <div className='sm:w-[512px]'>
                     <img className='w-full h-full object-cover' src={building1} alt="Building 1" />
                 </div>
-                <div className='flex flex-col gap-5 sm:w-[358px]'>
+                <div className='md:flex flex-col gap-5 hidden'>
                     <img className='w-full h-[323px] object-cover' src={building2} alt="Building 2" />
                     <img className='w-full h-[251px] object-cover' src={building3} alt="Building 3" />
                 </div>
