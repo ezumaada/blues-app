@@ -12,6 +12,7 @@ const AboutPage = () => {
   return (
     <div>
        <Navbar/>
+       <AboutSection/>
        
        <Vision/>
        <OurStory/>

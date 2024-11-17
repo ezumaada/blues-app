@@ -9,6 +9,7 @@ import Reviews from '../../components/reviews/Reviews';
 import Footer from '../../components/footer/Footer';
 import AboutSection from '../../components/aboutsection/AboutSection';
 import Vision from '../../components/vision/Vision';
+import Contact from '../../components/contact/Contact';
 
 
 
@@ -23,7 +24,7 @@ const Homepage = () => {
       <AllProperties/>
       <Reviews/>
       <Updates/>
-      
+      <Contact/>
       <Footer/>
     </div>
   )
