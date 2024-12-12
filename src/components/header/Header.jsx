@@ -30,7 +30,7 @@ const Header = () => {
                 <div className='mt-6'>
                     <h1 className='text-black text-4xl sm:text-5xl'>
                         Buy <span className='text-[#1818A6]'>. </span>
-                        Sell <span className='text-[#1818A6]'>.</span> 
+                        Sell <span className='text-[#1818A6]'>. </span> 
                         Rent <span className='text-[#1818A6]'>. </span>
                     </h1>
                 </div>

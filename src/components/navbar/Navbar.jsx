@@ -93,15 +93,15 @@ const Navbar = () => {
             </button>
             <div>
               <ul className="p-4">
-                <li className='text-black py-2 shadow-md'><Link to="/">Home</Link></li>
-                <li className='text-black py-2 shadow-md'><Link to="/about">About</Link></li>
-                <li className='text-black py-2 shadow-md'><Link to="/properties">Properties</Link></li>
-                <li className='text-black py-2 shadow-md'><Link to="/contact">Contact Us</Link></li>
+                <li className='text-black text-center py-2 shadow-md'><Link to="/">Home</Link></li>
+                <li className='text-black text-center py-2  shadow-md'><Link to="/about">About</Link></li>
+                <li className='text-black text-center py-2 shadow-md'><Link to="/properties">Properties</Link></li>
+                <li className='text-black text-center py-2 shadow-md'><Link to="/contact">Contact Us</Link></li>
               </ul>
               <div>
                 <ul className='fixed bottom-0 px-2'>
-                  <li className='text-black py-2 shadow-md'><Link to="/signin">Sign In</Link></li>
-                  <li className='text-black py-2 shadow-md'><Link to="/signup">Sign Up</Link></li>
+                  <li className='text-black text-center py-2 shadow-md'><Link to="/signin">Sign In</Link></li>
+                  <li className='text-black text-center py-2 shadow-md'><Link to="/signup">Sign Up</Link></li>
                 </ul>
               </div>
             </div>
